@@ -1,0 +1,16 @@
+[package]
+name = "raft"
+version = "0.1.0"
+authors = ["Kane <kane@sendgrid.com>"]
+
+[dependencies]
+protobuf        = "1.5"
+grpc            = "0.3.0"
+tls-api         = "0.1.*"
+tls-api-native-tls = "0.1.*"
+httpbis         = "=0.5.0"
+grpcio          = "0.2.3"
+futures         = "^0.1.15"
+
+[build-dependencies]
+protoc-rust-grpc = "0.3.0"
